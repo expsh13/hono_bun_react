@@ -11,4 +11,6 @@ app.get("/test", (c) => {
   return c.json({ message: "test" });
 });
 
+app.route("/api/expenses", expensesRoute);
+
 export default app; // for Cloudflare Workers or Bun
