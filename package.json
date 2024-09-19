@@ -7,23 +7,14 @@
     "dev": "bun --watch server/index.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest",
-    "@types/node": "^22.5.5",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.12"
+    "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "@hono/zod-validator": "^0.2.2",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
     "hono": "^4.6.1",
-    "lucide-react": "^0.441.0",
-    "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7",
     "zod": "^3.23.8"
   }
 }
